@@ -17,4 +17,7 @@ async function cat(path){
   }
 }
 
-cat(argv)
+// cat(argv)
+module.exports = {
+  cat : cat
+}
